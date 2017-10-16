@@ -1,0 +1,46 @@
+.bg-img {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  background-image: url('pictures/intro.jpeg');
+  background-position: center;
+}
+
+.grid-logo {
+  background-image: url('pictures/grid-logo.jpg');
+  background-position: center;
+}
+
+
+.step-1 {
+  background-image: url('pictures/1.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+.step-2 {
+  background-image: url('pictures/2.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.step-3 {
+  background-image: url('pictures/3.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.step-4 {
+  background-image: url('pictures/4.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.step-5 {
+  background-image: url('pictures/5.png');
+  background-size: contain;
+  background-position: center;
+}

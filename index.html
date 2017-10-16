@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="shower list">
+
+  <section class="slide intro bg-img">
+  </section>
+
+  <section class="slide">
+    <h2>Что такое Bootstrap?</h2>
+    <p>Фреймворк для разработки с помощью HTML, CSS и JS. Имеет инструментарий с открытым исходным кодом. Позволяет быстро прототипировать
+      свои идеи или создавать полноценный, mobile-first вебсайт с помощью множества готовых компонентов, респонсив сетки
+      и плагинов, построенных на jQuery.
+    </p>
+  </section>
+
+  <section class="slide">
+    <h2>Подключение в проект</h2>
+    <h3>CDN:</h3>
+    <pre>
+    <code>&lt;link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"&gt;</code>
+    </pre>
+    <h3>Compiled bundle:</h3>
+    <a href="https://getbootstrap.com/docs/4.0/getting-started/download/" target="_blank">https://getbootstrap.com/docs/4.0/getting-started/download/</a>
+  </section>
+
+  <section class="slide">
+    <h2>Компоненты</h2>
+    <p>Bootstrap компонтенты это просто набор html шаблонов и css классов.</p>
+
+    <div>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+    </div>
+    <br>
+
+    <a class="btn btn-primary" style="text-decoration: none;" href="https://getbootstrap.com/docs/4.0/components/alerts/" target="_blank">https://getbootstrap.com/docs/4.0/components/alerts/</a>
+  </section>
+
+  <section class="slide grid-logo bg-img">
+  </section>
+
+  <section class="slide">
+    <h2>Контейнер</h2>
+    <p>Предоставляет средства для центрирования содержимого страницы.</p>
+    <p>Используем
+      <code>.container</code> для фиксированной ширины или
+      <br>
+      <code>.container-fluid</code> для полноценной ширины.</p>
+
+    <code>&lt;div class="container"&gt;&lt;/div&gt;</code>
+  </section>
+
+  <section class="slide">
+    <h2>Строки</h2>
+    <p>Строки
+      <code>.row</code> представляют собой горизонтальные группы столбцов (ячеек), которые обеспечивают правильное выравнивание
+      столбцов (ячеек).
+    </p>
+    <code>&lt;div class="row"&gt;&lt;/div&gt;</code>
+  </section>
+
+  <section class="slide">
+    <h2>Колонки/ячейки/столбцы</h2>
+    <p>Контент страницы должно быть помещено в столбцы
+      <code>.col-x-x</code>, и только столбцы могут быть непосредственными дочерними элементами строк.</p>
+    <p>Классы столбцов указывают количество столбцов, которые вы хотели бы использовать, из возможных 12 в строке. Если нам
+      нужен контент в 4 столбца на маленьких устройствах, мы можем использовать
+      <code>.col-sm-4</code>
+    </p>
+    <code>&lt;div class="col-sm-4"&gt;&lt;/div&gt;</code>
+  </section>
+
+  <section class="slide">
+    <h2>Простой layout</h2>
+    <p>Контейнер, в нем строка, в строке 3 ячейки которые занимают по 4 столбца каждая. Таким образом мы получаем 3-х колоночный
+      layout.</p>
+    <pre>
+      <code>&#x3C;div class=&#x22;container&#x22;&#x3E;</code>
+      <code>&#x9;&#x3C;div class=&#x22;row&#x22;&#x3E;</code>
+      <code>&#x9;&#x9;&#x3C;div class=&#x22;col-sm-4&#x22;&#x3E;1&#x3C;/div&#x3E;</code>
+      <code>&#x9;&#x9;&#x3C;div class=&#x22;col-sm-4&#x22;&#x3E;2&#x3C;/div&#x3E;</code>
+      <code>&#x9;&#x9;&#x3C;div class=&#x22;col-sm-4&#x22;&#x3E;3&#x3C;/div&#x3E;</code>
+      <code>&#x9;&#x3C;/div&#x3E;</code>
+      <code>&#x3C;/div&#x3E;</code>
+    </pre>
+  </section>
+
+  <section class="slide bg-img step-1"></section>
+  <section class="slide bg-img step-2"></section>
+  <section class="slide bg-img step-3"></section>
+  <section class="slide bg-img step-4"></section>
+  <section class="slide bg-img step-5"></section>
+
+  <div class="progress"></div>
+
+  <script src="shower/shower.min.js"></script>
+</body>
+
+</html>
